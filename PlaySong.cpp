@@ -54,7 +54,7 @@ void PlaySong::playSong() {
 				auto songInfo = ll.getsong(currentIndex);
 				songName = songInfo.first;
 				currentIndex = songInfo.second;
-				string filePath = "C:\\Users\\fahim\\Desktop\\Projectt-dsa\\Projectt\\yes\\yes\\Songs\\" + songName + ".mp3";
+				string filePath = "songs folders path" + songName + ".mp3";
 
 				if (!music.openFromFile(filePath)) {
 					cout << "\n\t\t\x1b[31mFailed to load music file: " << songName << "\x1b[0m" << endl;
@@ -251,7 +251,7 @@ void PlaySong::songsinPlaylist() {
 			auto songInfo = qq.getQueuedSong(currentIndex);
 			songName = songInfo.first;
 			currentIndex = songInfo.second;
-			string filePath = "C:\\Users\\fahim\\Desktop\\Projectt-dsa\\Projectt\\yes\\yes\\Songs\\" + songName + ".mp3";
+			string filePath = "songs folders path" + songName + ".mp3";
 			if (!music.openFromFile(filePath)) {
 				cout << "\n\t\t\x1b[31mFailed to load music file: " << songName << "\x1b[0m" << endl;
 				break;
@@ -302,7 +302,7 @@ void PlaySong::songsinstack() {
 			auto songInfo = ss.getstackedsong(currentIndex);
 			songName = songInfo.first;
 			currentIndex = songInfo.second;
-			string filePath = "C:\\Users\\fahim\\Desktop\\Projectt-dsa\\Projectt\\yes\\yes\\Songs\\" + songName + ".mp3";
+			string filePath = "songs folders path" + songName + ".mp3";
 			if (!music.openFromFile(filePath)) {
 				cout << "\n\t\t\x1b[31mFailed to load music file: " << songName << "\x1b[0m" << endl;
 				break;
@@ -383,7 +383,7 @@ void PlaySong::GuestMode() {
 			auto songInfo = ll.getsong(currentIndex);
 			songName = songInfo.first;
 			currentIndex = songInfo.second;
-			string filePath = "C:\\Users\\fahim\\Desktop\\Projectt-dsa\\Projectt\\yes\\yes\\Songs\\" + songName + ".mp3";
+			string filePath = "songs folders path" + songName + ".mp3";
 
 			if (!music.openFromFile(filePath)) {
 				cout << "\n\t\t\x1b[31mFailed to load music file: " << songName << "\x1b[0m" << endl;
