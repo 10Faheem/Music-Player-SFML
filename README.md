@@ -51,7 +51,7 @@ When contributing, please adhere to our standard C++ coding conventions to maint
 
 This project is proudly open-source and licensed under the MIT License. We extend our heartfelt gratitude to the SFML team for providing a powerful multimedia library.
 
-Special thanks to Umer Farooq for their significant contributions to this project.
+Special thanks to Umer Farooq at depressedvoker@gmail.com for their significant contributions to this project.
 
 ## Get in Touch
 
